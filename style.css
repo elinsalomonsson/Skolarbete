@@ -1,0 +1,341 @@
+body {
+    font-family: sans-serif;
+background-color: white;
+
+      
+} 
+
+#wrapper {
+    margin:20px auto;
+    background-color: gray;
+    max-width: 1100px;
+    box-shadow: 0 0 5px;
+}
+
+#wrapper> p {
+    font-size: 16px;
+    text-align: left;
+    width:40%;
+    padding: 40px 40px;
+    
+    
+    
+}
+
+#wrapper img {
+    height: 400px;
+    margin-top:40px;
+    margin-right: 20px;
+    float:right;
+    
+}
+
+#wrapper2 {
+    margin:20px auto;
+    background-color: white;
+    max-width: 1100px;
+    box-shadow: 0 0 5px;
+    height: 600px;
+
+}
+
+#wrapper2 > p {
+    width: 50%;
+    padding:10px;
+    float:center;
+   
+    
+    
+}
+
+#wrapper2 img {
+    width:50%;
+    float:right;
+    padding:10px
+    
+}
+
+
+/*--INDEX TEXT---*/
+
+
+.container-1 {
+    display:flex;
+    background-color:whitesmoke;
+    padding:10%;  
+    
+}
+
+.cont1 {
+    
+    
+
+    
+}
+ 
+.cont2 {
+    flex-direction: row; 
+    justify-content:space-between;
+    
+}
+
+
+/* COLUMN FÖRSTA SIDA*/
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 70px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+
+
+.länkstödoss {
+    
+    text-decoration: : none;
+}
+
+a:link { 
+    color: dimgray;
+    
+
+}
+
+    a:visited{ 
+        color: #a82518;
+}
+    a:hover{ 
+        color:dimgray;
+    }
+    
+    a:active{ 
+        color:dimgray;
+}
+
+
+
+/*---CONTAINER STÖD OSS---*/
+
+.container3 {
+    display:flex;  
+    background-color:gray; 
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+.boxs3 { 
+    display:flex;
+    flex-grow: 1;
+    align-self: flex-start;
+    flex-direction: column;
+    
+    
+}
+
+.boxs1 {
+    display:flex;
+    flex-grow: 4;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+.container-4 {
+    display:flex;
+    background-color:white;
+    padding:130px;
+    
+}
+
+
+
+/*CARD GROUP VÅRA KATTER*/
+
+.cardgroup {
+    padding: 80px;    
+}
+
+
+/*----LÄNKAR-----*/
+
+a {
+    text-decoration: : none;
+}
+
+a:link { 
+    color: black;
+
+}
+
+    a:visited{ 
+        color: #a82518;
+}
+    a:hover{ 
+        color:darkgray;
+    }
+    
+    a:active{ 
+        color:black;
+}
+
+
+/* FOOTER*/
+        
+
+
+.full {
+    width: 100%;    
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: #a82518;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 0px;
+	text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+	color: white;
+	font-size: 2em;
+	font-weight: 600;
+	line-height: 38px;
+	padding: 40px 0 10px;
+	font-family: sans-serif;
+  font-weight: lighter
+}
+
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0px;
+	color: #7F8C8D;
+  padding: 0 0 8px 0;
+}
+
+.email{
+  border-bottom: 3px solid #fff;
+}
+.footer ul li a {
+	padding: 0 0 12px 0;
+	display: block;
+}
+.footer a {
+	color: white;
+  font-weight: lighter;
+}
+
+.footer p {
+	color: white;
+  font-weight: lighter;
+  font-size: 
+}
+
+.footer a:hover {
+	text-decoration:none;
+  font-weight: bold;
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+
+}
+.footer a {
+	color: #78828D
+}
+
+.footer-bottom {
+  margin-top: 2em;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+  font-size: 0.75em
+}
+
+    
+    .carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container5 {
+        display:flex;
+    background-color:black;
+     background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+
+}
+
+@media screen and (max-width: 480px) {
+ 
+
+#wrapper> p {
+   
+    font-size: 16px;
+    text-align: left;
+    width:85%;
+    padding: 10px 10px;
+    
+    
+    
+}
+
+#wrapper img {
+    height: 250px;
+    margin-top:10px;
+    margin-right: 10px;
+    float:right;
+    
+}
