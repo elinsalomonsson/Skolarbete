@@ -1,86 +1,80 @@
 body {
-    font-family: sans-serif;
+   font-family: 'Open Sans', sans-serif;
 background-color: white;
-
-      
+   
 } 
 
-#wrapper {
-    margin:20px auto;
-    background-color: gray;
-    max-width: 1100px;
-    box-shadow: 0 0 5px;
-}
 
-#wrapper> p {
-    font-size: 16px;
-    text-align: left;
-    width:40%;
-    padding: 40px 40px;
-    
-    
-    
-}
+ /*--- INDEX CAROUSEL---*/ 
 
-#wrapper img {
-    height: 400px;
-    margin-top:40px;
-    margin-right: 20px;
-    float:right;
-    
-}
 
-#wrapper2 {
-    margin:20px auto;
-    background-color: white;
-    max-width: 1100px;
-    box-shadow: 0 0 5px;
-    height: 600px;
-
-}
-
-#wrapper2 > p {
-    width: 50%;
-    padding:10px;
-    float:center;
-   
-    
-    
-}
-
-#wrapper2 img {
-    width:50%;
-    float:right;
-    padding:10px
-    
+    .carousel-item {
+  height: 60vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+        
 }
 
 
-/*--INDEX TEXT---*/
+
+/*--INDEX CONTAINER---*/
 
 
-.container-1 {
+.container-1 { /*conatiner*/
     display:flex;
+    flex-wrap: wrap;
+    
     background-color:whitesmoke;
-    padding:10%;  
+    padding:5%;  
     
 }
 
-.cont1 {
-    
-    
-
-    
-}
+.cont1  { /*aktuellt box*/
+  
+    text-align: left;
+   background: whitesmoke;
  
-.cont2 {
-    flex-direction: row; 
-    justify-content:space-between;
     
 }
 
+.cont1 p { /* aktuellt text*/
+    font-size: 15px;
+}
 
-/* COLUMN FÖRSTA SIDA*/
+
+.cont3 { /*om företaget box*/
+    
+    text-align: center;
+    border-radius: 5px;
+    background: #c4beb3;
+
+}
+
+.cont3 h1 { /* text om företaget*/
+font-weight:bold;
+    font-size: 15px;
+    padding:30px;
+   
+}
+
+
+.cont1 h3 { /* rubrik aktuellt*/
+    font-size: 30px; 
+    font-weight:bold;
+     
+}
+
+.container-1 img {
+    height:400px;
+}
+
+
+
+/* COLUMN BILDER FÖRSTA SIDA*/
 
 .column {
   float: left;
@@ -96,100 +90,274 @@ background-color: white;
 }
 
 
+/*---WRAPPER STÖD OSS--*/
 
-.länkstödoss {
+#wrapper {
+    height:inherit;
+ width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: white;
+    max-width: 1100px;
+    box-shadow: 1px 3px 3px;
     
-    text-decoration: : none;
 }
 
-a:link { 
+#wrapper > h2 {
+    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    background: #9988;
+    font-size: 20px;
+    color: #a82518;
+    text-align: center;
+    width:40%;  
+       
+}
+
+#wrapper > img {
+    height: 400px;
+    margin-top:40px;
+    margin-right: 20px;
+    float:right;
+    
+}
+
+#wrapper > p {
+    text-align: center;
+    font-size: 14px;
+    width:40%;
+    padding-left: 20px;
+}
+
+
+
+/*---FORM---*/
+
+ input[type=text], select, textarea {
+    
+  width: 20%;
+        height: 40px;
+  padding: 8px 2px;
+  border: 1px solid #ccc;
+margin:10px;
+  resize: vertical;
+        border-radius: 6px;
+}
+
+input[type=submit] {
+        width:5%;
+  background-color: #44413c;
+  color: White;
+  border: 1px solid #a82518;
+
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+.container6 {
+     text-align: center;
+  background-color: #f2f2f2;
+ padding:60px;
+    font-size: 14px;
+    
+        }
+         
+
+/*----WRAPPER 2 VAD VI GÖR-----*/
+
+#wrapper2 {
+    width: 1000px;
+    margin: 0px auto;
+    background-color: white;
+    max-width: 1100px;
+    box-shadow: 0 0 5px;
+    
+}
+
+#wrapper2 > h3 {
+    line-height: 25px;
+    width: 50%;
+    padding:40px;
+    font-size: 15px;
+   
+}
+
+#wrapper2  img {
+    width:40%;
+    float:right;
+    padding:10px
+}
+
+        
+table {
+   border: 4px; 
+    width:120px; 
+    height:300px;
+    position:absolute;
+    left:40px;
+    box-shadow: 5px 5px 5px 2px;
+    color:gray;
+    background:#c4beb3;
+    
+}
+
+table  p {
+    color: black;
+    font-style: italic;
+   font-size: 14px;
+    text-align: center;
+    
+}
+
+.placering { /*porträtt*/
+    
+    margin-top:200px;
+   
+}
+
+
+/*---BOTTOM VAD VI GÖR---*/
+
+
+
+.checked {
+    
+  color: orange;
+}
+
+
+figure {
+    
+background:#F5F0EA;
+   
+    
+}
+
+section img {
+    
+    width:10%;
+    margin:30px;  
+   
+}
+
+section {  
+    
+    margin: 0px auto;
+    width:90%;
+    padding:5px;  
+    
+}
+
+section > h2{
+   
+    width:25%;
+    font-size: 25px;
+    font-style:italic;
+    border-radius: 20px;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    padding:10px;
+    
+}
+
+aside {
+    width: 30%;
+    padding-left: 50px;
+    margin-left: 30px;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+    
+}
+
+aside > p {
+    margin: 20px;
+    
+}
+
+
+
+/*-----LÄNKAR-----*/
+
+a:link.nav-link { 
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+a:link.fa fa-facebook. fa fa-instagram {
+   
     color: dimgray;
     
-
 }
 
     a:visited{ 
         color: #a82518;
 }
+
     a:hover{ 
         color:dimgray;
     }
     
     a:active{ 
         color:dimgray;
-}
-
-
-
-/*---CONTAINER STÖD OSS---*/
-
-.container3 {
-    display:flex;  
-    background-color:gray; 
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-
-.boxs3 { 
-    display:flex;
-    flex-grow: 1;
-    align-self: flex-start;
-    flex-direction: column;
-    
-    
-}
-
-.boxs1 {
-    display:flex;
-    flex-grow: 4;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    justify-content: flex-end;
-    
-}
-
-.container-4 {
-    display:flex;
-    background-color:white;
-    padding:130px;
-    
 }
 
 
 
 /*CARD GROUP VÅRA KATTER*/
 
+
 .cardgroup {
-    padding: 80px;    
+    padding: 30px;
+    margin:40px;
+     
 }
 
-
-/*----LÄNKAR-----*/
-
-a {
-    text-decoration: : none;
-}
-
-a:link { 
-    color: black;
-
-}
-
-    a:visited{ 
-        color: #a82518;
-}
-    a:hover{ 
-        color:darkgray;
-    }
+.card {
+    padding: 10px;
     
-    a:active{ 
-        color:black;
+}
+
+.reserverad {
+    font-size: 15px;
+    font-style: italic;
+    color:brown;
+        
+    
+}
+
+.button {
+    border-color:brown;
+    border-radius: 4px;
+   
+}
+/*---symboler f+I---*/
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width:35px;
+    text-align: center;
+    text-decoration: none; 
+        
 }
 
 
-/* FOOTER*/
+.fa-facebook {
+    background-color: white;
+   
+}
+
+
+/*----- FOOTER-----*/
         
 
 
@@ -282,6 +450,7 @@ a:link {
 }
 
 }
+
 .footer a {
 	color: #78828D
 }
@@ -297,45 +466,215 @@ a:link {
   font-size: 0.75em
 }
 
+
+   
+
+/*---MEDIA WRAPPER STÖD OSS--*/
+
+@media screen and (max-width: 480px) {
+ 
+    #wrapper {
+    margin:1px 1px;
+        height:inherit;
+    background-color: #F5F0EA;
+    box-shadow: 0 0 5px;
+      
+}
+
+#wrapper> h2 {
+    margin:10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color:red;
     
+}
+    
+    #wrapper> p {
+   padding-left: 10px;
+        font-size: 17px;
+        text-align: left;
+    
+}
+
+#wrapper img {
+   padding-left: 10px;
+    margin-top: 5px;
+    height:300px; 
+  
+}
+
+    
+    /*--MEDIA WRAPPER2--*/
+    
+  #wrapper2 {
+    margin:20px;
+        height:inherit;
+    background-color: gray;
+    box-shadow: 0 0 5px;
+        max-width: 480px;
+      
+}
+
+#wrapper2> h3 {
+     clear:both;
+    font-size: 16px;
+    text-align: center;
+    width:100%;
+    
+    
+}
+
+#wrapper2 img {
+
+   margin-right: 80px;
+    margin-top: 5px;
+    float:center;
+    
+}
+    
+            
+table {
+   border: 4px; 
+    width:120px; 
+    height:300px;
+    position:absolute;
+    left:40px;
+    box-shadow: 5px 5px 5px 2px;
+    color:gray;
+    background:#c4beb3;
+    
+}
+
+table  p {
+    color: black;
+    font-style: italic;
+   font-size: 14px;
+    text-align: center;
+
+    
+}
+   
+    /*---FORM---*/
+    
+    input[type=text], select, textarea {
+    
+  width: 10%;
+        height: 10px;
+  padding: 8px 2px;
+  border: 1px solid #ccc;
+margin:10px;
+  resize: vertical;
+        border-radius: 2px;
+}
+
+input[type=submit] {
+        width:60px;
+  background-color: white;
+  color: black;
+  border: 3px solid #a82518;
+
+  border-radius: 1px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+.container6 {
+     text-align: center;
+  background-color: #f2f2f2;
+ padding:50px;
+    font-size:13px;
+    
+        }
+    
+    /*--- INDEX CAROUSEL---*/ 
+
+
     .carousel-item {
-  height: 65vh;
+  height: 5vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+        
+}
+    
+    .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
-.container5 {
-        display:flex;
-    background-color:black;
-     background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 
 }
 
-@media screen and (max-width: 480px) {
- 
 
-#wrapper> p {
+
+/*--INDEX CONTAINER---*/
+
+
+.container-1 {
    
-    font-size: 16px;
+    display:flex;
+    background-color:whitesmoke;
+    column-width: auto;
+    padding: 1px;
+    overflow: scroll;
+    
+}
+    
+    .cont1 { 
+    height: 0px auto;
+    margin: 0px auto;
+   background: gray; 
+    
+    overflow: scroll;
+    }
+    
+    
+.cont3 {
+    
+   height:0px auto;
+    margin: 0px auto;
+    background: #c4beb3;
+    overflow: scroll;
+  
+}
+    
+.cont3 h1 {
+    
+    padding:1px;
     text-align: left;
-    width:85%;
-    padding: 10px 10px;
+  font-size: 17px;
+    font-weight:normal; 
+    
+}
     
     
+.cont1 h3 {
+    font-size: 25px; 
+    font-weight:bold;
+     
+}
+    
+.container-1 img {
+    clear: both;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-self: flex-end;
+    height:200px;
     
 }
 
-#wrapper img {
-    height: 250px;
-    margin-top:10px;
-    margin-right: 10px;
-    float:right;
-    
+     
 }
